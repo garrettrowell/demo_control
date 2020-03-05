@@ -2,7 +2,7 @@ plan task_demo::cowsay_plan(
   Boolean $cleanup = false,
   Optional[String[1]] $message = undef,
 ){
-  $nodes = get_target('pe-201922-agent.puppetdebug.vlan')
+  $nodes = get_target('pe-201922-master.puppetdebug.vlan')
 
   if $cleanup {
     run_task('package', $nodes, action => uninstall, name => 'epel-release')

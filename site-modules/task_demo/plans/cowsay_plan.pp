@@ -1,6 +1,6 @@
 plan task_demo::cowsay_plan(
   Boolean $cleanup = false,
-  Optional[String[1]] $message,
+  Optional[String[1]] $message = undef,
 ){
   $nodes = get_target('pe-201922-agent.puppetdebug.vlan')
 

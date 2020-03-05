@@ -1,5 +1,11 @@
 forge 'https://forge.puppet.com'
 
+mod 'danieldreier/autosign', '0.2.0'
+mod 'binford2k/easter_egg', '0.0.1'
+mod 'puppetlabs/inifile', '4.1.0'
+mod 'puppetlabs/stdlib', '4.25.1'
+mod 'puppetlabs/translate', '2.1.0'
+
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
 #mod 'puppetlabs/inifile', '3.0.0'

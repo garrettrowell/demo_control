@@ -12,12 +12,13 @@ plan task_demo::cowsay_plan(
     run_task('package', $nodes, action => install, name => 'epel-release')
     run_task('package', $nodes, action => install, name => 'cowsay')
     run_task('package', $nodes, action => install, name => 'fortune-mod')
-  }
 
-  if $message == undef {
-    run_command('fortune | cowsay', $nodes)
-  } else {
-    run_command("cowsay ${message}", $nodes)
+    if $message == undef {
+      run_command('fortune | cowsay', $nodes)
+    } else {
+      run_command("cowsay ${message}", $nodes)
+    }
+
   }
 
 }

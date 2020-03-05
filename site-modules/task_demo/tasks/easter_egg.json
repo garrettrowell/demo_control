@@ -1,0 +1,7 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Leverage the binford2k/easter_egg module to task-ify the never forgotten 'puppet help help help help help' easter egg",
+  "parameters": {
+  }
+}

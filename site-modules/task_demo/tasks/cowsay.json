@@ -1,0 +1,15 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Print a fun message.",
+  "parameters": {
+    "cleanup": {
+      "description": "Remove the packages this task installs on the target node(s)",
+      "type": "Optional[Boolean]"
+    },
+    "message": {
+      "description": "Print the message of your choosing",
+      "type": "Optional[String[1]]"
+    }
+  }
+}

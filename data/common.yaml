@@ -1,50 +1,54 @@
 ---
 message: "This node is using common data"
 beaker: >
-               ...::::::::::::
-         .::::::::::::::::::
-      .:::::::::::::::::::::
-     :::::::::::::::::::::::
-     `::::::::::::::::::::::
-      `:::::::::::::::::::::
-       `::::::::::::::::::::
-        `::::::::::::::::::::
-         `:::::::::::::::::::
-          `::::::::::::::::::.    .
-           :::::::::::::::''`   .:::`:
-            :::::''`..,ueed$$$$> :`.::
-            `:',ze$$$$$$$$$$$$P''.:::'
-             sd$$$$$$$$$$$P"" .:::'' ,i,
-     `::::......`"`.......,::''   ,d$$$$b'
-      `::::::::::::::::'''  .eed$ee.`?h+=
-            ``'''' .zeeeu. ?$$$$$$$$b."$$"
-       :ed$$$$F .d$$$$$$$$$c ?$???$$$$
-      s$$$$$$$':$$$$$$$??$$$b      $$$
-    .d$$$$$$$$ $$$$$$F    $$$ 4c..d$$F
-  ""  =??$$$$$.?$$$$$$c..z$$$ J$$FFF"
-       `CR??9?; "$$$$$$$$$$F ..eeee$$$be
-                  "???????" $$$$$$$$$$$$$r
-                  eeu,..,ee'?$$$$$$$$$$$$%
-                  `$$$$$$$$$c.""??$$$$$P"
-                   3$$$$$$$$F
-                   `$$$$$$$$       'F
-                    `$$$$$$F        "
-                     $$$$$$F      zee   ..,,cr
-                     , d$$$k    u$$$$L $$$$$$
-                 .ud$$ $$$$$   J$$$$$F $$$$$F
-               u$$$$$$ $$$$$  J$$$$$$F $$$$$
-               `$$$$$$ $$$$$ .$$$$$$$F $$$$"
-                `?$$$$ ?$$$$.d$$$$$$$F $$$"
-                  "?$$b ?$$$$$$$$$$$$F $$F
-                    `?$b ?$$$$$$$$$$$L $"
-                    .  "  '$$$$$$$$$PF
-                 ;;  ?bc,. `""""""""".u-
-                :!!!;  ?$$$$$$$$$$$PP" .eF !;,
-                !!!!!!;  "?$$u,,.,,ze$$$$F ;!!i
-                !!!!!!!!;   `??$$$$$$P"$$% i!!!!i.
-          ,;i!!i '!!!!!!!!; -..    .,e$$"  !!!!!!!i.'!!i.
-     ;!!!; !!!!!!; !!!!';!!!, ?$$$$$$$F    !!!!!!!!!i`!!!!!.
-    ;!!!!!i !!!!!!i '..,;!!!!;  ?$$$LzeeF  `!!!!!!!!!!`!!!!!i
-    !!!!!!!! !!!!!! ,:!!!!!!!!;   ?$$$$$  $ `!!!!!!!!! !!!!!!!.
-    `!!!!!!!i`!!!!!;`!!!!!!!!!!  u `?R$" .$b !!!!!!!!';!!!!!!!!
-    `!!!!!!!! !!!!!!  !!!!!!!!!  $$e. '  $$$r !!!!!!! !!!!!!!!!
+    ENC[PKCS7,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
+    NR2xSXXe5w==]
